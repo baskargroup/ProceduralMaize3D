@@ -1,0 +1,10 @@
+numpy
+pandas
+open3d
+pyswarms
+torch>=1.8.0
+matplotlib
+tqdm
+scipy
+geomdl
+argparse

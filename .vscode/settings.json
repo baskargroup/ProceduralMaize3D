@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.code-workspace": "python",
+        "*.py": "python",
+        "plyconfig.json": "jsonc"
+    }
+}
