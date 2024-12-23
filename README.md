@@ -1,12 +1,16 @@
-# PSO and NURBS-Diff Optimization for Maize Plant Surfaces 🌽✨
+# Procedural Generation of 3D Maize Plant Architecture from LIDAR Data 🌽✨
 
-This project implements a pipeline for optimizing NURBS surfaces using Particle Swarm Optimization (PSO) and NURBS-Diff. It is designed to process plant point clouds of maize leaves and generate optimized surfaces that are fitted to the point clouds of the leaves.
+This repository presents a robust framework for generating procedural 3D models of maize plants from LiDAR point cloud data. The method combines Particle Swarm Optimization (PSO) and NURBS-Diff to produce high-fidelity reconstructions of maize leaf surfaces, providing a scalable and automated approach for plant phenotyping.
 
 ## Features 🚀
 
-- Optimize 3D plant surfaces using NURBS. 🌱
-- Visualize results with figures and videos. 📊🎥
-- Modular scripts for extracting, processing, and optimizing data. 🛠️
+- **Procedural Modeling:** Automates the reconstruction of maize leaf surfaces from point clouds.
+
+- **Two-Step Optimization:** Combines PSO for initial surface fitting and NURBS-Diff for detailed refinement.
+
+- **Genotype Versatility:** Demonstrates adaptability to diverse maize genotypes.
+
+- **Open-Source:** Implements reproducible and accessible phenotyping methods.
 
 ## Prerequisites 🖥️
 
@@ -28,9 +32,9 @@ pip install -r requirements.txt
 
 ### 2. Clone This Repository 🔗
 
-```bash
-Clone the PSO_NURBSDIFF repository and install the required libraries:
+Clone the **PSO_NURBSDIFF** repository and install the required libraries:
 
+```bash
 git clone https://github.com/yourusername/PSO_NURBSDIFF.git
 cd PSO_NURBSDIFF
 pip install -r requirements.txt
@@ -76,10 +80,36 @@ bash scripts/run_plants.sh
 
 Optimized surfaces and plots will be saved in the `output/` directory. Videos and figures can be found in the `output/videos/` and `output/figures/` directories.
 
+## Methodology 🔍
+
+### Overview:
+
+This two-step optimization approach includes:
+
+1. **Particle Swarm Optimization (PSO):** Generates an approximate NURBS surface by optimizing control points to align with the point cloud data.
+
+2. **NURBS-Diff Refinement:** Applies gradient-based optimization to refine the initial surface for high-fidelity reconstructions, capturing intricate leaf details like edges and tips.
+
+### Key Advantages:
+
+- Handles noisy and sparse point cloud data.
+
+- Efficiently models diverse maize genotypes.
+
+- Enables accurate trait extraction and simulation.
+
 ## Outputs 📦
 
-- Optimized Surface Files: `.dat` and `.stl` formats. 📁
+- **Optimized Surface Files:** `.dat` and `.stl` formats. 📁
 
-- Convergence Plots: Chamfer distance reduction for each plant. 📉
+- **Convergence Plots:** Chamfer distance reduction for each plant. 📉
 
-- Videos: Visualizations of 3D plant surfaces. 🎥
+- **Videos:** Visualizations of 3D plant surfaces. 🎥
+
+
+## Example Visualization for 78551S genotype 🎥
+
+| segmented point cloud | segmented point cloud | NURBS-Diff output |
+|-------|-------|-------|
+| ![GIF 1](output/videos/PCD_color.gif) | ![GIF 2](output/videos/PSO.gif) | ![GIF 3](output/videos/NURBS-Diff.gif) |
+
