@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Directory containing the Python scripts
-SCRIPT_DIR="/work/mech-ai/mozhgan/NURBSDiff/examples/Maize"
+SCRIPT_DIR="/directory/to/your/files/"
 
 # Python scripts
 EXTRACT_SCRIPT="extract_plants.py"
