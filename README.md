@@ -113,3 +113,13 @@ This two-step optimization approach includes:
 |-------|-------|-------|
 | ![GIF 1](output/videos/PCD_color.gif) | ![GIF 2](output/videos/PSO.gif) | ![GIF 3](output/videos/NURBS-Diff.gif) |
 
+## Citation
+```bibtex
+@article{hadadi2025procedural,
+  title={Procedural Generation of 3D Maize Plant Architecture from LIDAR Data},
+  author={Hadadi, Mozhgan and Saraeian, Mehdi and Godbersen, Jackson and Jubery, Talukder and Li, Yawei and Attigala, Lakshmi and Balu, Aditya and Sarkar, Soumik and Schnable, Patrick S and Krishnamurthy, Adarsh and others},
+  journal={arXiv preprint arXiv:2501.13963},
+  year={2025}
+  doi={10.48550/arXiv.2501.13963}
+}
+```
