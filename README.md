@@ -115,11 +115,16 @@ This two-step optimization approach includes:
 
 ## Citation
 ```bibtex
-@article{hadadi2025procedural,
-  title={Procedural Generation of 3D Maize Plant Architecture from LIDAR Data},
-  author={Hadadi, Mozhgan and Saraeian, Mehdi and Godbersen, Jackson and Jubery, Talukder and Li, Yawei and Attigala, Lakshmi and Balu, Aditya and Sarkar, Soumik and Schnable, Patrick S and Krishnamurthy, Adarsh and others},
-  journal={arXiv preprint arXiv:2501.13963},
-  year={2025}
-  doi={10.48550/arXiv.2501.13963}
+@article{HADADI2025110382,
+  title = {Procedural generation of 3D maize plant architecture from LiDAR data},
+  author = {Mozhgan Hadadi and Mehdi Saraeian and Jackson Godbersen and Talukder Z. Jubery and Yawei Li and Lakshmi Attigala and Aditya Balu and Soumik Sarkar and Patrick S. Schnable and Adarsh Krishnamurthy and Baskar Ganapathysubramanian},
+  journal = {Computers and Electronics in Agriculture},
+  volume = {236},
+  pages = {110382},
+  year = {2025},
+  issn = {0168-1699},
+  doi = {https://doi.org/10.1016/j.compag.2025.110382},
+  url = {https://www.sciencedirect.com/science/article/pii/S0168169925004880},
+  keywords = {Procedural modeling, Differentiable splines, 3D plant phenotyping, Field grown maize plants, Point cloud data}
 }
 ```
