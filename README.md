@@ -36,7 +36,7 @@ Clone the **ProceduralMaize3D** repository and install the required libraries:
 
 ```bash
 git clone https://github.com/baskargroup/ProceduralMaize3D.git
-cd PSO_NURBSDIFF
+cd ProceduralMaize3D
 pip install -r requirements.txt
 ```
 
