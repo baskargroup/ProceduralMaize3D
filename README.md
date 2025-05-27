@@ -48,12 +48,11 @@ pip install -r requirements.txt
 ProceduralMaize3D/
 ├── data/            # Input data (e.g., point clouds, configurations)
 ├── output/          # Results and logs
-│   ├── figures/     # Convergence plots and visualizations
-│   ├── logs/        # Log files
-│   └── videos/      # Video results
+│   ├── videos/      # Video results
 ├── src/             # Source code and scripts
-│   ├── extract_plants.py
 │   ├── PSO_NURBSDIFF.py
+│   ├── config.py
+│   ├── extract_plants.py
 │   └── run_plants.sh
 ├── README.md        # Documentation
 ├── requirements.txt # Dependencies
