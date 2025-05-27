@@ -32,10 +32,10 @@ pip install -r requirements.txt
 
 ### 2. Clone This Repository 🔗
 
-Clone the **PSO_NURBSDIFF** repository and install the required libraries:
+Clone the **ProceduralMaize3D** repository and install the required libraries:
 
 ```bash
-git clone https://github.com/yourusername/PSO_NURBSDIFF.git
+git clone https://github.com/baskargroup/ProceduralMaize3D.git
 cd PSO_NURBSDIFF
 pip install -r requirements.txt
 ```
@@ -45,7 +45,7 @@ pip install -r requirements.txt
 ### 1. Directory Structure 📂
 
 ```bash
-PSO_NURBSDIFF/
+ProceduralMaize3D/
 ├── data/            # Input data (e.g., point clouds, configurations)
 ├── output/          # Results and logs
 │   ├── figures/     # Convergence plots and visualizations
